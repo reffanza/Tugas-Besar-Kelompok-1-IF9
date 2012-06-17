@@ -23,16 +23,283 @@ int  i,j;
     glColorMaterial(GL_FRONT,GL_SPECULAR);
     //glRotatef(1.0,0.5,0.0,0);
      glPushMatrix();
-/*
-*/                    
+// TRIBUN
+//atas
+                    //tribun atas 1
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,1.05,0.02);
+                                         glScalef(2,0.05,0.03);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun atas 2
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,1.14,0.04);
+                                         glScalef(2.1,0.05,0.05);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                     //tribun atas 3
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,1.23,0.06);
+                                         glScalef(2.2,0.05,0.07);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                     //tribun atas 4
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,1.32,0.08);
+                                         glScalef(2.3,0.05,0.09);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun atas 5
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,1.41,0.1);
+                                         glScalef(2.4,0.05,0.11);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun atas 6
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,1.5,0.12);
+                                         glScalef(2.5,0.05,0.13);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun atas 7
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,1.59,0.14);
+                                         glScalef(2.6,0.05,0.15);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun atas 8
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,1.68,0.16);
+                                         glScalef(2.7,0.05,0.17);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                     //tribun atas 9
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,1.77,0.18);
+                                         glScalef(2.8,0.05,0.19);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                     //tribun atas 10
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,1.86,0.2);
+                                         glScalef(2.9,0.05,0.21);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+//bawah      
+                     //tribun bawah 1
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,-1.05,0.02);
+                                         glScalef(2,-0.05,0.03);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun bawah 2
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,-1.14,0.04);
+                                         glScalef(2.1,-0.05,0.05);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                     //tribun bawah 3
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,-1.23,0.06);
+                                         glScalef(2.2,-0.05,0.07);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                     //tribun bawah 4
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,-1.32,0.08);
+                                         glScalef(2.3,-0.05,0.09);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun bawah 5
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,-1.41,0.1);
+                                         glScalef(2.4,-0.05,0.11);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun bawah 6
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,-1.5,0.12);
+                                         glScalef(2.5,-0.05,0.13);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun bawah 7
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,-1.59,0.14);
+                                         glScalef(2.6,-0.05,0.15);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun bawah 8
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,-1.68,0.16);
+                                         glScalef(2.7,-0.05,0.17);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                     //tribun bawah 9
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(0,-1.77,0.18);
+                                         glScalef(2.8,-0.05,0.19);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                     //tribun bawah 10
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(0,-1.86,0.2);
+                                         glScalef(2.9,-0.05,0.21);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+//kiri
+                    //tribun kiri 1
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(-2.05,0,0.02);
+                                         glScalef(0.05,1.91,0.03);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kiri 2
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(-2.14,0,0.04);
+                                         glScalef(0.05,1.91,0.05);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kiri 3
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(-2.23,0,0.06);
+                                         glScalef(0.05,1.91,0.07);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kiri 4
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(-2.32,0,0.08);
+                                         glScalef(0.05,1.91,0.09);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kiri 5
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(-2.41,0,0.1);
+                                         glScalef(0.05,1.91,0.11);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kiri 6
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(-2.5,0,0.12);
+                                         glScalef(0.05,1.91,0.13);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kiri 7
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(-2.59,0,0.14);
+                                         glScalef(0.05,1.91,0.15);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kiri 8
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(-2.68,0,0.16);
+                                         glScalef(0.05,1.91,0.17);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kiri 9
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(-2.77,0,0.18);
+                                         glScalef(0.05,1.91,0.19);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+//kanan
+                    //tribun kanan 1
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(2.05,0,0.02);
+                                         glScalef(0.05,1.91,0.03);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kanan 2
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(2.14,0,0.04);
+                                         glScalef(0.05,1.91,0.05);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kanan 3
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(2.23,0,0.06);
+                                         glScalef(0.05,1.91,0.07);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kanan 4
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(2.32,0,0.08);
+                                         glScalef(0.05,1.91,0.09);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kanan 5
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(2.41,0,0.1);
+                                         glScalef(0.05,1.91,0.11);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kanan 6
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(2.5,0,0.12);
+                                         glScalef(0.05,1.91,0.13);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kanan 7
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(2.59,0,0.14);
+                                         glScalef(0.05,1.91,0.15);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kanan 8
+                    glPushMatrix();
+                                         glColor3f(0,1,0);
+                                         glTranslatef(2.68,0,0.16);
+                                         glScalef(0.05,1.91,0.17);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //tribun kanan 9
+                    glPushMatrix();
+                                         glColor3f(0,0,1);
+                                         glTranslatef(2.77,0,0.18);
+                                         glScalef(0.05,1.91,0.19);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();                    
 // LAPANGAN
                     glPushMatrix();
                                          glColor3f(0,1,0);
                                          glScalef(2,1,0.01);
                                          glutSolidCube(2.0);
                     glPopMatrix();
-/*
-*/
 //garis
                     //garis bawah
                     glPushMatrix();
