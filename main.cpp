@@ -294,10 +294,111 @@ int  i,j;
                                          glScalef(0.05,1.91,0.19);
                                          glutSolidCube(2.0);
                     glPopMatrix();                    
+//papan score
+                   glPushMatrix();
+                                         glColor3f(0,0,0);
+                                         glTranslatef(0,1.9,0.56);
+                                         glScalef(1,0.01,0.15);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+//score kiri 0
+                      glPushMatrix();
+                                         glColor3f(1,0,0);
+                                         glTranslatef(-0.3,1.89,0.55);
+                                         glRotated(-90,0.1,0,0);
+                                         glutSolidTorus(0.01,0.05,3,20);
+                    glPopMatrix();
+//score kanan 0
+                      glPushMatrix();
+                                         glColor3f(1,0,0);
+                                         glTranslatef(0.3,1.89,0.55);
+                                         glRotated(-90,0.1,0,0);
+                                         glutSolidTorus(0.01,0.05,3,20);
+                    glPopMatrix();
+//score strip
+                      glPushMatrix();
+                                         glColor3f(1,0,0);
+                                         glTranslatef(0,1.89,0.55);
+                                         glRotated(-90,0.1,0,0);
+                                         glScalef(0.05,0.01,0.01);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
 // LAPANGAN
                     glPushMatrix();
                                          glColor3f(0,1,0);
                                          glScalef(2,1,0.01);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+//tiang
+ //tiang atas kanan
+                     glPushMatrix();
+                                         glColor3f(0.8,0.8,0.8);
+                                         glTranslatef(1.5,0,0.15);
+                                         glScalef(0.01,0.15,0.01);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+ //tiang atas kiri
+                     glPushMatrix();
+                                         glColor3f(0.8,0.8,0.8);
+                                         glTranslatef(-1.5,0,0.15);
+                                         glScalef(0.01,0.15,0.01);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+ //tiang kiri bawah
+                     glPushMatrix();
+                                         glColor3f(0.8,0.8,0.8);
+                                         glTranslatef(-1.5,-0.16,0.09);
+                                         glScalef(0.01,0.01,0.07);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+//tiang kiri bawah1
+                     glPushMatrix();
+                                         glColor3f(0.8,0.8,0.8);
+                                         glTranslatef(-1.5,0.16,0.09);
+                                         glScalef(0.01,0.01,0.07);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+//tiang kanan bawah
+                     glPushMatrix();
+                                         glColor3f(0.8,0.8,0.8);
+                                         glTranslatef(1.5,-0.16,0.09);
+                                         glScalef(0.01,0.01,0.07);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+//tiang kanan bawah1
+                     glPushMatrix();
+                                         glColor3f(0.8,0.8,0.8);
+                                         glTranslatef(1.5,0.16,0.09);
+                                         glScalef(0.01,0.01,0.07);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+//bendera
+                    //pojok kiri atas
+                     glPushMatrix();
+                                         glColor3f(1,0,1);
+                                         glTranslatef(-1.5,0.8,0.05);
+                                         glScalef(0.001,0.01,0.03);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //pojok kanan atas
+                     glPushMatrix();
+                                         glColor3f(1,0,1);
+                                         glTranslatef(1.5,0.8,0.05);
+                                         glScalef(0.001,0.01,0.03);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //pojok kiri bawah
+                     glPushMatrix();
+                                         glColor3f(1,0,1);
+                                         glTranslatef(-1.5,-0.8,0.05);
+                                         glScalef(0.001,0.01,0.03);
+                                         glutSolidCube(2.0);
+                    glPopMatrix();
+                    //pojok kiri atas
+                     glPushMatrix();
+                                         glColor3f(1,0,1);
+                                         glTranslatef(1.5,-0.8,0.05);
+                                         glScalef(0.001,0.01,0.03);
                                          glutSolidCube(2.0);
                     glPopMatrix();
 //garis
