@@ -25,6 +25,142 @@ void display(void) {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glColorMaterial(GL_FRONT, GL_SPECULAR);
 
+    // TRACK LARI
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glScalef(2, 1.5, 0.01);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //track lari KANAN
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.5, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.46, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.42, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.38, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.34, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.30, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.26, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.22, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.18, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.14, 5, 100);
+    glPopMatrix();
+    //lingkaran kanan1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(1.6, 0, 0);
+    glutSolidTorus(0.02, 1.10, 5, 100);
+    glPopMatrix();
+
+    //track lari KIRI
+    //lingkaran KIRI1
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.5, 5, 100);
+    glPopMatrix();
+    //lingkaran KIRI2
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.46, 5, 100);
+    glPopMatrix();
+    //lingkaran KIRI3
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.42, 5, 100);
+    glPopMatrix();
+    //lingkaran KIRI4
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.38, 5, 100);
+    glPopMatrix();
+    //lingkaran KIRI4
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.34, 5, 100);
+    glPopMatrix();
+    //lingkaran KIRI6
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.30, 5, 100);
+    glPopMatrix();
+    //lingkaran KIRI7
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.26, 5, 100);
+    glPopMatrix();
+    //lingkaran KIRI8
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.22, 5, 100);
+    glPopMatrix();
+    //lingkaran KIRI9
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.18, 5, 100);
+    glPopMatrix();
+    //lingkaran KIRI9
+    glPushMatrix();
+    glColor3f(0.8, 0.5, 0);
+    glTranslatef(-1.6, 0, 0);
+    glutSolidTorus(0.02, 1.14, 5, 100);
+    glPopMatrix();
+
     // LAPANGAN
     glPushMatrix();
     glColor3f(0, 1, 0);
