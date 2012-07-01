@@ -25,6 +25,174 @@ void display(void) {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glColorMaterial(GL_FRONT, GL_SPECULAR);
 
+    //papan score
+    glPushMatrix();
+    glColor3f(0, 0, 0);
+    glTranslatef(0, 2.31, 0.56);
+    glScalef(1, 0.01, 0.15);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //score kiri 0
+    glPushMatrix();
+    glColor3f(1, 0, 0);
+    glTranslatef(-0.3, 2.30, 0.55);
+    glRotated(-90, 0.1, 0, 0);
+    glutSolidTorus(0.01, 0.05, 3, 20);
+    glPopMatrix();
+    //score kanan 0
+    glPushMatrix();
+    glColor3f(1, 0, 0);
+    glTranslatef(0.3, 2.30, 0.55);
+    glRotated(-90, 0.1, 0, 0);
+    glutSolidTorus(0.01, 0.05, 3, 20);
+    glPopMatrix();
+    //score strip
+    glPushMatrix();
+    glColor3f(1, 0, 0);
+    glTranslatef(0, 2.30, 0.55);
+    glRotated(-90, 0.1, 0, 0);
+    glScalef(0.05, 0.01, 0.01);
+    glutSolidCube(2.0);
+    glPopMatrix();
+
+    // TRIBUN
+    //atas
+    //tribun atas 1
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, 1.5, 0.02);
+    glScalef(3.2, 0.05, 0.03);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun atas 2
+    glPushMatrix();
+    glColor3f(0.5, 0.5, 0.5);
+    glTranslatef(0, 1.59, 0.04);
+    glScalef(3.3, 0.05, 0.05);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun atas 3
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, 1.68, 0.06);
+    glScalef(3.4, 0.05, 0.07);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun atas 4
+    glPushMatrix();
+    glColor3f(0.5, 0.5, 0.5);
+    glTranslatef(0, 1.77, 0.08);
+    glScalef(3.5, 0.05, 0.09);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun atas 5
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, 1.86, 0.1);
+    glScalef(3.6, 0.05, 0.11);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun atas 6
+    glPushMatrix();
+    glColor3f(0.5, 0.5, 0.5);
+    glTranslatef(0, 1.95, 0.12);
+    glScalef(3.7, 0.05, 0.13);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun atas 7
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, 2.04, 0.14);
+    glScalef(3.8, 0.05, 0.15);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun atas 8
+    glPushMatrix();
+    glColor3f(0.5, 0.5, 0.5);
+    glTranslatef(0, 2.13, 0.16);
+    glScalef(3.9, 0.05, 0.17);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun atas 9
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, 2.22, 0.18);
+    glScalef(4.0, 0.05, 0.21);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun atas 10
+    glPushMatrix();
+    glColor3f(0.5, 0.5, 0.5);
+    glTranslatef(0, 2.31, 0.2);
+    glScalef(4.1, 0.05, 0.21);
+    glutSolidCube(2.0);
+    glPopMatrix();
+
+    //Bawah
+    //tribun Bawah 1
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, -1.5, 0.02);
+    glScalef(3.2, 0.05, 0.03);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun Bawah 2
+    glPushMatrix();
+    glColor3f(0.5, 0.5, 0.5);
+    glTranslatef(0, -1.59, 0.04);
+    glScalef(3.3, 0.05, 0.05);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun Bawah 3
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, -1.68, 0.06);
+    glScalef(3.4, 0.05, 0.07);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun Bawah 4
+    glPushMatrix();
+    glColor3f(0.5, 0.5, 0.5);
+    glTranslatef(0, -1.77, 0.08);
+    glScalef(3.5, 0.05, 0.09);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun Bawah 5
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, -1.86, 0.1);
+    glScalef(3.6, 0.05, 0.11);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun Bawah 6
+    glPushMatrix();
+    glColor3f(0.5, 0.5, 0.5);
+    glTranslatef(0, -1.95, 0.12);
+    glScalef(3.7, 0.05, 0.13);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun Bawah 7
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, -2.04, 0.14);
+    glScalef(3.8, 0.05, 0.15);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun Bawah 8
+    glPushMatrix();
+    glColor3f(0.5, 0.5, 0.5);
+    glTranslatef(0, -2.13, 0.16);
+    glScalef(3.9, 0.05, 0.17);
+    glutSolidCube(2.0);
+    glPopMatrix();
+    //tribun Bawah 9
+    glPushMatrix();
+    glColor3f(0.9, 1, 1);
+    glTranslatef(0, -2.22, 0.18);
+    glScalef(4.0, 0.05, 0.21);
+    glutSolidCube(2.0);
+    glPopMatrix();
+
     // TRACK LARI
     glPushMatrix();
     glColor3f(0.8, 0.5, 0);
